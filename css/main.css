@@ -146,6 +146,7 @@ time, mark, audio, video {
 }
 .sideMenu{
 	width: 50%;
+	vertical-align: top;
 	display: table-cell;
 	background-color: #fff;
 }
@@ -196,6 +197,7 @@ time, mark, audio, video {
 }
 .contacts{
 	background-color: #c5cdd1;
+	
 	
 }
 
