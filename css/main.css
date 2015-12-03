@@ -45,7 +45,37 @@ time, mark, audio, video {
 	margin: auto;
 }
 /************** vasko ***************/
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
 
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+}
 #nav{
 	background-color: #fff;
 	display: inline-block;
@@ -143,12 +173,27 @@ time, mark, audio, video {
 #login img{
 	width: 86%;
 }
-
+.tableCont{
+	display: inline-block;
+}
 .sideMenuHalf{
-	width: 50%;
-	margin: 2% 0;
+	width: 49%;
+	margin: 2% 1% 0 0;
+	float: left;
 	display: table;
 	
+}
+.LeftMargin{
+	margin-right: 0;
+	width: 50%;
+	float: left;
+}
+.sideMenuTable{
+	display: table;
+}
+.sideMenuLinks{
+	width: 100%;
+	display: table-cell;
 }
 .sideMenu{
 	width: 50%;
@@ -170,7 +215,7 @@ time, mark, audio, video {
 	background-image: url("../img/menu_icons.png");
 	display: inline-block;
 }
-.home{
+#home{
 	background-position: 0 0;
 }
 #store{
@@ -245,6 +290,7 @@ time, mark, audio, video {
 	width: 100%;
 }
 .subMenuList li{
+	width: 99%;
 	background-color: #152840;
 	display: inline-block;
 	border: none;
@@ -263,6 +309,281 @@ time, mark, audio, video {
 	background-image: url("../img/arrow_blue.png");
 	background-repeat: no-repeat;
 	background-position: center right;
+}
+
+.halfSocialIcon{
+	width: 50%;
+	vertical-align: top;
+	display: table;
+}
+
+.socialHalf {
+	width: 49%;
+	float: left;
+	
+	
+}
+.left{
+	width: 50%;
+	background-color: #fff;
+	padding-bottom: 1%;
+}
+
+.socialLinks{
+	text-align: center;
+}
+
+.socialLinks li{
+	list-style: none;
+	padding: 4% 0;
+}
+
+.socialLink{
+	width: 70%;
+	padding: 2% 0 0 3%;
+	color: #000;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: top;
+	display: inline-block;
+}
+.socialLink:hover{
+	color: #4fc6f8;
+}
+.spritesSocial{
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+	background-color: #c5cdd1;
+	background-image: url("../img/social_icons_big.png");
+	background-repeat: no-repeat;
+	display: inline-block;
+}
+.spritesSocial:hover{
+	background-color: #4fc6f8;
+}
+#face{
+	background-position: 7px -3px;
+	
+}
+#tweety{
+	background-position: 6px -59px;
+	
+}
+#google{
+	background-position: 7px -114px;
+	
+}
+#rss{
+	background-position: 7px -169px;
+	
+}
+#pinterest{
+	background-position: 6px -225px;
+	
+}
+
+
+.socialBigImg{
+	width: 80%;
+	padding: 14% 5%;
+}
+
+.socialBig span{
+	color: #fff;
+	padding: 10%;
+}
+.socialBig {
+	width: 99%;
+	margin: 0 2% 0 2%;
+}
+
+.faceboock{
+	background-color: #4d6baa;
+	margin: 0 0 6% 4%;
+}
+.faceboock img{
+	width: 7%;
+}
+.tweet{
+	background-color: #4fc6f8;
+	margin: 0 0 0 4%;
+}
+.tweet img{
+	width: 12%;
+}
+
+.rightBottombar{
+	float: left;
+	margin: 2% 1%;
+	background-color: #fff;
+	text-align: center;
+}
+.insta{
+	background: url("../img/insta.png");
+	background-repeat: no-repeat;
+	background-position: 5px 5px;
+}
+
+.socialLinksLeft{
+	width: 60%;
+	padding-bottom: 5%;
+	margin: 0 auto;
+	display: inline-block;
+}
+.socialLinksLeft li{
+	width: 20%;
+	list-style: none;
+	display: inline-block;
+}
+#faceLeft{
+	background-color: #4d6baa;
+	background-position: 6px -4px;
+}
+#tweetyLeft{
+	background-color: #4fc6f8;
+	background-position: 5px -59px;
+}
+#googleLeft{
+	background-color: #ea6060;
+	background-position: 6px -115px;
+}
+#instaLeft{
+	background-color: #238cc8;
+}
+.socialLinkLeft{
+	display: block;
+	min-height: 22px;
+}
+.titleBottom{
+	font-size: 2rem;
+	width: 90%;
+	padding: 5%;
+}
+.subTitleBottom{
+	font-size: 1.2rem;
+	padding: 0 0 3% 0;
+}
+.email input,
+.email button{
+	padding: 1% 5%;
+}
+
+.email button{
+	color: #fff;
+	background-color: #ea6060;
+}
+.email{
+	padding-bottom: 3%;
+}
+.rightBottombar p{
+	padding-bottom: 3%;
+}
+.topImg{
+	width: 40%;
+	position: absolute;
+	top: 10%;
+	left: 10%;
+}
+.titleBig{
+	font-size: 3.5rem;
+	padding-bottom: 5%;
+	color: #fff;
+}
+
+.topImg p{
+	font-size: 1.2rem;
+	padding-bottom: 5%;
+	color: #fff;
+}
+.topImg button{
+	background-color: #787878;
+	color: #fff;
+	border: 2px solid #fff;
+	cursor: pointer;
+	padding: 2% 8%;
+}
+.topImg button:hover{
+	background-color: #a8a7a7;
+}
+.section2 {
+	margin: 1% 0;
+}
+.news{
+	width: 45%;
+	background-color: #fff;
+	position: relative;
+	float: left;
+}
+
+.newsCont{
+	width: 40%;
+	padding: 19%;
+	float: left;
+}
+#camera{
+	position: absolute;
+	width: 10%;
+	min-height: 44px;
+	top: 10%;
+	left: 0;
+	background-color: #ea6060;
+}
+#camera img{
+	width: 50%;
+	padding: 20%;
+}
+.newsCont h3{
+	font-size: 2rem;
+}
+.newsCont span{
+	font-size: 0.9rem;
+	color: #c6cbce;
+}
+#red{
+	color: #ed7575;
+}
+.newsLinks{
+	width: 20%;
+	float: left;
+	background-color: #1f3045;
+	display: block:
+	
+}
+.socialLinkstop li{
+	list-style: none;
+	padding: 29% 0;
+}
+.socialLinkstop{
+	text-align: center;
+	display: inline-block;
+}
+.socialLinkTop{
+	color: #fff;
+	text-decoration: none;
+}
+
+.spritesSocialTop{
+	width: 28px;
+	height: 28px;
+	background: url("../img/icon_small2.png");
+	background-repeat: no-repeat;
+	padding: 5%;
+	margin: 2% auto;
+	display: block;
+}
+#like{
+		background-position: 4px -5px;
+}
+#Later{
+	background-position: 5px -100px;
+}
+#Share{
+	background-position: 5px -191px;
+}
+.video{
+	width: 55%;
+	float: left;
 }
 /************* end vasko *************/
 /************* nasko *****************/

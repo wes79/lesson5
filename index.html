@@ -13,8 +13,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 <meta http-equiv="cleartype" content="on">
 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="js/responsiveslides.min.js"></script>
+<script src="js/responsiveslides.js"></script>
 
-
+<script>
+  $(function() {
+    $(".rslides").responsiveSlides();
+  });
+</script>
 
 </head>
 <body>
@@ -56,129 +63,309 @@
 				<div id="login">
 					<img src="img/login_icon.png"/>
 				</div>
-			</div>	
-			<div class="sideMenuHalf">
-				<div class="sideMenu">
-					<ul class="SideMenuList">
-						<li>
-							<div id="home" class="sprites" ></div>
-							<a class="menuLink side" href="/">Home</a>
-						</li>
-						<li>
-							<div id="store" class="sprites"></div>
-							<a class="menuLink side" href="/">Store</a> 
-						</li>
-						<li>
-							<div id="blog"class="sprites"></div>
-							<a class="menuLink side" href="/">Blog</a> 
-						</li>
-						<li>
-							<div id="community"class="sprites"></div>
-							<a class="menuLink side" href="/">Community</a> 
-						</li>
-						<li>
-							<div id="contests"class="sprites"></div>
-							<a class="menuLink side" href="/">Contests</a> 
-						</li>
-						<li>
-							<div id="about"class="sprites"></div>
-							<a class="menuLink side" href="/">About</a> 
-						</li>
-						<li>
-							<div id="contact"class="sprites"></div>
-							<a class="menuLink side" href="/">Contact</a> 
-						</li>
-					</ul>
-					<div class="contacts">
-						<div id="telephon"class="sprites cont"></div>
-						<p>
-						(912) 555-1234<br>
-						(912) 555-5678
-						</p>
-						<div id="addres"class="sprites cont"></div>
-						<p>
-						1600 Pennsylvania 
-						Ave NW, Washington 
-						DC 20500, USA
-						</p>
-						<div id="mail"class="sprites cont"></div>
-						<p>
-						hello@website.com
-						office@website.com
-						</p>
-						
+			</div>
+			<div class="tableCont">
+				<div class="sideMenuHalf clearfix">
+					<div class="sideMenuTable">
+						<div class="sideMenu">
+							<ul class="SideMenuList">
+								<li>
+									<div id="home" class="sprites" ></div>
+									<a class="menuLink side" href="/">Home</a>
+								</li>
+								<li>
+									<div id="store" class="sprites"></div>
+									<a class="menuLink side" href="/">Store</a> 
+								</li>
+								<li>
+									<div id="blog"class="sprites"></div>
+									<a class="menuLink side" href="/">Blog</a> 
+								</li>
+								<li>
+									<div id="community"class="sprites"></div>
+									<a class="menuLink side" href="/">Community</a> 
+								</li>
+								<li>
+									<div id="contests"class="sprites"></div>
+									<a class="menuLink side" href="/">Contests</a> 
+								</li>
+								<li>
+									<div id="about"class="sprites"></div>
+									<a class="menuLink side" href="/">About</a> 
+								</li>
+								<li>
+									<div id="contact"class="sprites"></div>
+									<a class="menuLink side" href="/">Contact</a> 
+								</li>
+							</ul>
+							<div class="contacts">
+								<div id="telephon"class="sprites cont"></div>
+								<p>
+								(912) 555-1234<br>
+								(912) 555-5678
+								</p>
+								<div id="addres"class="sprites cont"></div>
+								<p>
+								1600 Pennsylvania 
+								Ave NW, Washington 
+								DC 20500, USA
+								</p>
+								<div id="mail"class="sprites cont"></div>
+								<p>
+								hello@website.com
+								office@website.com
+								</p>
+								
+							</div>
+						</div>
+						<div class="sideMenuLinks">
+							<div class="sideMenu subMenu">
+								<ul class="SideMenuList subMenuList">
+									<li>
+										<a class="menuLink side subMenuLink " href="/">Tech</a>
+									</li>
+									<li>
+										<a class="menuLink side subMenuLink " href="/">Software & Apps</a> 
+									</li>
+									<li>
+										<a class="menuLink side subMenuLink " href="/">Gadgets</a> 
+									</li>
+									<li>
+										<a class="menuLink side subMenuLink " href="/">Mobile</a> 
+									</li>
+								</ul>
+							</div>
+							<div class="sideMenu subMenu">
+								<ul class="SideMenuList subMenuList">
+									<li>
+										<a class="menuLink side subMenuLink " href="/">Entertainment</a>
+									</li>
+									<li>
+										<a class="menuLink side subMenuLink " href="/">Film</a> 
+									</li>
+									<li>
+										<a class="menuLink side subMenuLink " href="/">Gaming</a> 
+									</li>
+									<li>
+										<a class="menuLink side subMenuLink " href="/">Music</a> 
+									</li>
+									<li>
+										<a class="menuLink side subMenuLink " href="/">Sport</a> 
+									</li>
+								</ul>
+							</div>
+							<div class="sideMenu subMenu">
+								<ul class="SideMenuList subMenuList">
+									<li>
+										<a class="menuLink side subMenuLink " href="/">Business</a>
+									</li>
+									<li>
+										<a class="menuLink side subMenuLink " href="/">Jobs</a> 
+									</li>
+									<li>
+										<a class="menuLink side subMenuLink " href="/">Marketing</a> 
+									</li>
+									<li>
+										<a class="menuLink side subMenuLink " href="/">Media</a> 
+									</li>
+								</ul>
+							</div>
+							<div class="sideMenu subMenu">
+								<ul class="SideMenuList subMenuList">
+									<li>
+										<a class="menuLink side subMenuLink " href="/">Lifestyle</a>
+									</li>
+									<li>
+										<a class="menuLink side subMenuLink " href="/">Home</a> 
+									</li>
+									<li>
+										<a class="menuLink side subMenuLink " href="/">Health & Fitmess</a> 
+									</li>
+									<li>
+										<a class="menuLink side subMenuLink " href="/">Travel & Leisure</a> 
+									</li>
+								</ul>
+							</div>
+						</div>
 					</div>
 				</div>
-				<div class="sideMenuLinks">
-					<div class="sideMenu subMenu">
-						<ul class="SideMenuList subMenuList">
+				<div class="sideMenuHalf clearfix LeftMargin">
+					<div class="socialHalf left">
+						<ul class="socialLinks">
 							<li>
-								<a class="menuLink side subMenuLink " href="/">Tech</a>
+								<div id="face" class="spritesSocial" ></div>
+								<a class="socialLink" href="/">Facebook</a>
 							</li>
 							<li>
-								<a class="menuLink side subMenuLink " href="/">Software & Apps</a> 
+								<div id="tweety" class="spritesSocial"></div>
+								<a class="socialLink" href="/">Twitter</a> 
 							</li>
 							<li>
-								<a class="menuLink side subMenuLink " href="/">Gadgets</a> 
+								<div id="google"class="spritesSocial"></div>
+								<a class="socialLink" href="/">Google +</a> 
 							</li>
 							<li>
-								<a class="menuLink side subMenuLink " href="/">Mobile</a> 
-							</li>
-						</ul>
-					</div>
-					<div class="sideMenu subMenu">
-						<ul class="SideMenuList subMenuList">
-							<li>
-								<a class="menuLink side subMenuLink " href="/">Entertainment</a>
+								<div id="rss"class="spritesSocial"></div>
+								<a class="socialLink" href="/">Rss Feeds</a> 
 							</li>
 							<li>
-								<a class="menuLink side subMenuLink " href="/">Film</a> 
-							</li>
-							<li>
-								<a class="menuLink side subMenuLink " href="/">Gaming</a> 
-							</li>
-							<li>
-								<a class="menuLink side subMenuLink " href="/">Music</a> 
-							</li>
-							<li>
-								<a class="menuLink side subMenuLink " href="/">Sport</a> 
+								<div id="pinterest"class="spritesSocial"></div>
+								<a class="socialLink" href="/">Pinterest</a> 
 							</li>
 						</ul>
 					</div>
-					<div class="sideMenu subMenu">
-						<ul class="SideMenuList subMenuList">
+					<div class="socialHalf right">
+						<div class="socialBig faceboock">
+							<div class="socialBigImg">
+							<img src="img/fb_big.png" alt="FB"/>
+							</div>
+							<span>156K</span>
+							<span>Follow</span>
+							<span>+</span>
+						</div>
+						<div class="socialBig tweet">
+							<div class="socialBigImg">
+							<img src="img/tweeter_big.png" alt="tweeter"/>
+							</div>
+							<span>89K</span>
+							<span>Following</span>
+							<span>&#x2611</span>
+						</div>
+					</div>
+					<div class="rightBottombar">
+						<h2 class="titleBottom">
+						Sign In
+						</h2>
+						<h3 class="subTitleBottom">
+						Just select your favorite social network to get started
+						</h3>
+						<ul class="socialLinksLeft">
 							<li>
-								<a class="menuLink side subMenuLink " href="/">Business</a>
+								<div id="faceLeft" class="spritesSocial" ><a class="socialLinkLeft" href="#"></a></div>
+								
 							</li>
 							<li>
-								<a class="menuLink side subMenuLink " href="/">Jobs</a> 
+								<div id="tweetyLeft" class="spritesSocial"><a class="socialLinkLeft" href="#"></a></div>
+								 
 							</li>
 							<li>
-								<a class="menuLink side subMenuLink " href="/">Marketing</a> 
+								<div id="googleLeft"class="spritesSocial"><a class="socialLinkLeft" href="#"></a> </div>
+								
 							</li>
 							<li>
-								<a class="menuLink side subMenuLink " href="/">Media</a> 
+								<div id="instaLeft"class="spritesSocial insta"><a class="socialLinkLeft" href="#"></a></div>
+								 
 							</li>
 						</ul>
 					</div>
-					<div class="sideMenu subMenu">
-						<ul class="SideMenuList subMenuList">
+					<div class="rightBottombar">
+						<h2 class="titleBottom">
+						Join the Newsletter
+						</h2>
+						<p>
+						Sign up for our personalized daily newsletter
+						</p>
+						<div class="email">
+							<form>
+							<input  type="email" name="email" placeholder="Enter email address">
+							<button>SIGN UP</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="slider clearfix">
+				<ul class="rslides">
+				  <li>
+					<div class="sliderImg">
+						<img src="img/bgr_grey.png" alt="grey"/>
+						<div class="topImg">
+							<h2 class="titleBig">
+							Featured Story
+							</h2>
+							<p>
+							Now that the holiday gift-giving time is over, we're 
+							sure many of our readers unwrapped some new consoles. 
+							Despite its long life on the market...
+							</p>
+							<button>VIEW MORE</button>
+						</div>
+					</div>
+				  </li>
+				  <li>
+					<div class="sliderImg">
+						<img src="img/bgr_grey.png" alt="grey"/>
+						<div class="topImg">
+							<h2 class="titleBig">
+							Featured Story 2
+							</h2>
+							<p>
+							Now that the holiday gift-giving time is over, we're 
+							sure many of our readers unwrapped some new consoles. 
+							Despite its long life on the market...
+							</p>
+							<button>VIEW MORE</button>
+						</div>
+					</div>
+				  </li>
+				  <li>
+					<div class="sliderImg">
+						<img src="img/bgr_grey.png" alt="grey"/>
+						<div class="topImg">
+							<h2 class="titleBig">
+							Featured Story 3
+							</h2>
+							<p>
+							Now that the holiday gift-giving time is over, we're 
+							sure many of our readers unwrapped some new consoles. 
+							Despite its long life on the market...
+							</p>
+							<button>VIEW MORE</button>
+						</div>
+					</div>
+				  </li>
+				</ul>
+			</div>
+			<div class="section2 clearfix">
+				<div class="news">
+					<div class="newsCont">
+						<div id="camera"><img src="img/camera.png" alt="grey"/></div>
+						<h3>
+						Best story you
+						have ever heard
+						</h3>
+						<span>
+						24 minutes ago
+						</span>
+						<p>
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+						Lorem ipsum has been the industry’s... <span id="red">Read more...<span>
+						</p>
+					</div>
+					<div class="newsLinks">
+						<ul class="socialLinkstop">
 							<li>
-								<a class="menuLink side subMenuLink " href="/">Lifestyle</a>
+								<div id="like" class="spritesSocialTop" ></div>
+								<a class="socialLinkTop" href="#">Like</a>
 							</li>
 							<li>
-								<a class="menuLink side subMenuLink " href="/">Home</a> 
+								<div id="Later" class="spritesSocialTop"></div> 
+								<a class="socialLinkTop" href="#">Later</a>
 							</li>
 							<li>
-								<a class="menuLink side subMenuLink " href="/">Health & Fitmess</a> 
-							</li>
-							<li>
-								<a class="menuLink side subMenuLink " href="/">Travel & Leisure</a> 
+								<div id="Share"class="spritesSocialTop"></div>
+								<a class="socialLinkTop" href="#">Share</a>
 							</li>
 						</ul>
 					</div>
 				</div>
-		</div>
+				<div class="video">
+					<video controls>
+					  <source src="video/mov30n-1.mp4" type="video/mp4">
+					  Your browser does not support the video tag.
+					</video>
+				</div>
+			</div>
 		</div>
 		
 	</div>
